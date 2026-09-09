@@ -276,15 +276,13 @@ tile_set = SubResource("TileSet_cp7pm")
 [node name="6 - Distant_trees" type="ParallaxLayer" parent="ParallaxBackground" unique_id=983378204]
 z_index = -2
 texture_filter = 1
-position = Vector2(4, -5)
-scale = Vector2(0.79999924, 1)
 motion_scale = Vector2(0.1, 0.1)
 motion_mirroring = Vector2(288, 0)
 
 [node name="Sprite2D" type="Sprite2D" parent="ParallaxBackground/6 - Distant_trees" unique_id=1851888522]
 texture_repeat = 2
-position = Vector2(-39.999996, -129)
-scale = Vector2(1.3758692, 1.6175393)
+position = Vector2(0, -104)
+scale = Vector2(1, 1.5)
 texture = ExtResource("4_shmpx")
 centered = false
 region_enabled = true
@@ -306,14 +304,11 @@ region_rect = Rect2(0, 0, 576, 208)
 [node name="4 - Tree row 2" type="ParallaxLayer" parent="ParallaxBackground" unique_id=548317385]
 z_index = -1
 texture_filter = 1
-position = Vector2(2, 1)
 motion_scale = Vector2(0.5, 0.5)
 motion_mirroring = Vector2(288, 0)
 
 [node name="Sprite2D" type="Sprite2D" parent="ParallaxBackground/4 - Tree row 2" unique_id=1837073729]
 texture_repeat = 2
-position = Vector2(-28, -15)
-scale = Vector2(1.1388887, 1.0480769)
 texture = ExtResource("6_v3ty0")
 centered = false
 region_enabled = true
